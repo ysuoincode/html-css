@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+<h1>Mídias em HTML5</h1>
+    <h2>Imagens dinâmicas</h2>
+    <p>Imagem deve mudar conforme tamanho da tela: </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/luffy-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/luffy-m.png" type="image/png">
+        <img src="imagens/luffy-g.png" alt="Imagem Flexivel">
+    </picture>
+
+    <h2>Áudio</h2>
+    <p>Reproduzindo áudios:</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/gear-fifith.mp3" type="audio/mpeg">
+        
+        <p>Seu naveganor não suporta áudio. <a href="midia/gear-fifith.mp3" download="gear-fifith.mp3" type="audio/mpeg">Clique aqui para baixar o arquivo MP3. </a></p>
+    </audio>
+
+    <h2>Videos</h2>
+    <p>Exemplo de video hospedado pelo proprio server:</p>
+    <video  poster="imagens/thumb.png"  width="560px" height="315" controls>
+        <source src="videos/gear-fifth.mp4.mp4" type="video/mp4">
+    </video>
+    
+    
+    <p>Exemplo de video Incorparado pelo YTB:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fC5MKJDW6sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <hr>
+
+</body>
+</html>

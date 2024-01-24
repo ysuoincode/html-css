@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Pirata';
+    src: url(fontes/PirataOne-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin:  0px;
+    padding: 0px;
+}
+
+:root{
+    --cor01: #F2B705;
+    --cor02: #F28705;
+    --cor03: #f1e1cc;
+    --cor04: #F27405;
+    --cor05: #592B02;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-pirata: 'Pirata', 'cursive', sans-serif; 
+}
+
+body{
+    background-color: var(--cor03);
+    font-family: var(--font-padrao);
+}
+
+header{
+    background-color: var(--cor01);
+    min-height: 150px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.336);
+}
+
+
+header > h1{
+    color: white;
+    text-decoration: underline;
+    font-size: 3em;
+    font-family: var(--font-pirata);
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.548);
+}   
+
+nav{
+    text-align: center;
+    background-color: var(--cor05);
+    padding: 5px;
+}
+
+nav > a{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin: 0px 7%;
+}
+
+nav > a:hover{
+    transition-duration: 1s;
+    text-decoration: underline;
+}
+
+main{
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+article > h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-family: var(--font-pirata);
+    font-weight: normal;
+}
+
+article > p{
+    margin-bottom: 20px;
+}
+
+aside{
+    margin: 10px 20px 10px 0px;
+}
+
+aside > ul{
+    margin: 5px 30px;
+}
+
+footer{
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color:var(--cor05);
+}
