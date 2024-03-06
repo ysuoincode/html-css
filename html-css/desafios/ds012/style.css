@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Playfair',serif;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+.container-cabecalho {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.container-cabecalho h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vh;
+}
+
+.container-cabecalho p{
+    padding-bottom: 50px;
+    font-size: 1em;
+}
+
+.container-cabecalho a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.container-cabecalho a:hover{
+    text-decoration: underline;
+}
+
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+
+.container-normal{
+    background-color: #fff;
+    color: black;
+}
+
+.container-imagem{
+    background-color: rgb(28, 28, 28);
+    color: white;
+}
+
+.container-imagem p{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.224);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+
+
